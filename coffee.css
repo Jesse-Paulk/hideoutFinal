@@ -65,28 +65,49 @@ a {
  margin: 0 auto;
  height: 22vh;
  width: 22vh;
-
+ z-index: 1;
 }
 
 .logo {
 
 }
+
 /* main image styles and text styles*/
 .mainImage {
+ background-image: url("http://i.imgur.com/WfLA29P.jpg");
  height: 80vh;
  width: 100%;
- background-image: url("http://i.imgur.com/WfLA29P.jpg");
  background-size: cover;
+ 
+}
+
+#videosList {
+ height: 80vh;
+ width: 100%;
+ overflow: hidden;
+ z-index: -100;
+}
+
+
+
+/* Hide Play button + controls on iOS */
+video::-webkit-media-controls {
+    display:none !important;
 }
 
 .mainText {
-  padding-top: 6%;
-  margin-left: 6%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -35%;
+  margin-left: 70%;
   font-size: 15px;
   height: 60vh;
   width: 27%;
   box-sizing: border-box;
   color: white;
+  z-index:300000;
+
 }
 
 .mtext {
@@ -94,6 +115,8 @@ a {
   width: 90%;
   height: 50%;
   margin: 0 auto;
+  z-index:300000;
+  text-shadow: 2px 2px 5px black;
 }
 /*bottom boder style8*/
 .bottombar {

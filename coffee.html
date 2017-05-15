@@ -1,12 +1,16 @@
 <!DOCTYPE html>
+<html lang="en">
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Hideout Coffee House</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="coffee.css">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+     <title>Hideout Coffee House</title>
   </head>
   <body>
+  <div class="container">
     <div class="navbar">
       <div class="lbar">
         <div class="nav">
@@ -22,11 +26,7 @@
           <a class="navBtn" href="#">Calendar</a>
         </div>
       </div>
-      <div class="logobox">
-        <div class="logo">
-          <img src="https://c1.staticflickr.com/5/4167/33929754570_ec831d27c4_m.jpg">
-        </div>
-      </div>
+      <div class="logobox"></div>
       <div class="rbar">
         <div class="nav">
           <a class="navBtn" href="#">Theatre</a>
@@ -43,18 +43,15 @@
       </div>
     </div>
         <div class="mainImage">
-			<div id="videosList">           
+			<div id="videosList">
 			<div class="video">
 			    <video class="thevideo" loop preload="none">
 			      <source src="Hideout_Intro.mp4" type="video/mp4">
 			    </video>
-			    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-			    <script src="index.js"></script>
 			  </div>
 			</div>
         <div class="mainText">
-          <p class="mtext">The Hideout is downtown Austin’s oldest independent coffee house. We are open morning to night, weekdays and weekends and serve beer, wine, fresh sandwiches, pastries, ice cream, as well as an assortment of beverages and coffee drinks.</p>
-        </div>
+          The Hideout is downtown Austin’s oldest independent coffee house. We are open morning to night, weekdays and weekends and serve beer, wine, fresh sandwiches, pastries, ice cream, as well as an assortment of beverages and coffee drinks.
       </div>
       <div class="bottombar">
         <div class="leftm">
@@ -91,5 +88,10 @@
         </div>
       </div>
     </div>
+    </div>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+      <script src="index.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>

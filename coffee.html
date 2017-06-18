@@ -1,97 +1,119 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="coffee.css">
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
-     <title>Hideout Coffee House</title>
-  </head>
-  <body>
-  <div class="container">
-    <div class="navbar">
-      <div class="lbar">
-        <div class="nav">
-          <a class="navBtn" href="#">About</a>
-        </div>
-        <div class="nav">
-          <a class="navBtn" href="#">Menus</a>
-        </div>
-        <div class="nav">
-          <a class="navBtn" href="#">Buy Tickets</a>
-        </div>
-        <div class="nav">
-          <a class="navBtn" href="#">Calendar</a>
-        </div>
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <link rel="stylesheet" href="coffee.css">
+  <link rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  <title>Hideout Coffee (home)</title>
+</head>
+<body>
+
+  <div class="container" style="width:100%; height:100%;">
+    <div class="row menuBar">
+
+      <div class="col logo">
+        <img src="https://c1.staticflickr.com/5/4167/33929754570_ec831d27c4_m.jpg" style="height:100px;">
       </div>
-      <div class="logobox"></div>
-      <div class="rbar">
-        <div class="nav">
-          <a class="navBtn" href="#">Theatre</a>
+
+     <div class="navbar navbar-inverse navbar-fixed-top">
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+          </button>
         </div>
-        <div class="nav">
-          <a class="navBtn" href="#">Classes</a>
-        </div>
-        <div class="nav">
-          <a class="navBtn" href="#">Kids Improv</a>
-        </div>
-        <div class="nav">
-          <a class="navBtn" href="#">Hire Us</a>
-        </div>
-      </div>
-    </div>
-        <div class="mainImage">
-			<div id="videosList">
-			<div class="video">
-			    <video class="thevideo" loop preload="none">
-			      <source src="Hideout_Intro.mp4" type="video/mp4">
-			    </video>
-			  </div>
-			</div>
-        <div class="mainText">
-          The Hideout is downtown Austin’s oldest independent coffee house. We are open morning to night, weekdays and weekends and serve beer, wine, fresh sandwiches, pastries, ice cream, as well as an assortment of beverages and coffee drinks.
-      </div>
-      <div class="bottombar">
-        <div class="leftm">
-          <div class="ps">
-            Proudly <br> Serving
-          </div>
-          <div class="ps1">
-          </div>
-          <div class="ps2">
-          </div>
-          <div class="ps3">
-          </div>
-        </div>
-          <h4>617 CONGRESS AVE AUSTIN, TX 78701 <br> Phone: (512) 443-3688</h4>
-      <div class="rightm">
-        <a href="https://twitter.com/hideouttheatre?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
-          <div class="media1">
-          </div>
-        </a>
-        <a href="https://www.facebook.com/hideouttheatre/" target="_blank">
-          <div class="media2">
-          </div>
-        </a>
-        <a href="https://www.instagram.com/hideouttheatre/" target="_blank">
-          <div class="media3">
-          </div>
-        </a>
-        <a href="https://www.tripadvisor.com/Attraction_Review-g30196-d3747830-Reviews-The_Hideout_Theatre-Austin_Texas.html" target="_blank">
-          <div class="media4">
-          </div>
-        </a>
-        <div class="media5">
-          Social <br> Media
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav leftmenu">
+            <li><a href="about.html">About</a></li>
+            <li><a href="menus.html">Menus</a></li>
+            <li><a href="buytickets.html">Buy Tickets</a></li>
+            <li><a href="calendar.html">Calendar</a></li>
+          </ul>
+          <ul class="nav navbar-nav rightmenu" style="float:right;">
+            <li><a href="theatre.html">Theatre</a></li>
+            <li><a href="classes.html">Classes</a></li>
+            <li><a href="kidsimprov.html">Kids Improv</a></li>
+            <li><a href="hireus.html">Hire Us</a></li>
+          </ul>
         </div>
       </div>
     </div>
+    <div class="row main">
+
+
     </div>
-      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-      <script src="index.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<div class="row bottomRow" style="padding-right:0;">
+        <div id="mobilesocial" class="col-xs-12 mediaAddress">
+
+
+        </div>
+      </div>
+      <div class="row">
+
+        <div id="mobileaddress" class="col-xs-12 mediaAddress">
+          <center>
+            <a href="https://twitter.com/HideOutATX">
+              <img id="mobiletwitter" class="socialMedia" src="https://s3.amazonaws.com/store-product-images/icon-twitter-bird-circle-black-40x.png" />
+            </a>
+            <a href="https://www.facebook.com/hideoutcoffeehouse/">
+              <img id="mobilefacebook" class="socialMedia" src="https://s3.amazonaws.com/store-product-images/icon-facebook-circle-black-40x.png" />
+            </a>
+          <div style="display:inline-block;">
+            617 CONGRESS AVE AUSTIN, TX 78701 <br> Phone: (512) 443-3688
+          </div>
+          <a href="https://www.instagram.com/hideouttheatre/">
+            <img id="mobileinstagram" class="socialMedia" style="background-color:black; border-radius:60%;" src="http://www.championsboston.com/wp-content/uploads/2013/03/icon-instagram.png" />
+          </a>
+          <a href="https://www.tripadvisor.com/Attraction_Review-g30196-d3747830-Reviews-The_Hideout_Theatre-Austin_Texas.html">
+            <img id="mobiletripadvisor" class="socialMedia" style="background-color:black; border-radius:60%" src="http://ffh-station.com/wp-content/uploads/2016/07/tripadvisor-circle-white-40px.png" />
+          </a>
+
+          </center>
+        </div>
+
+      </div>
+      <div class="row" style:"background-color:#000; height:auto;">
+        <div class="col-xs-12">
+              <div class="video_wrapper">
+                    <video class="thevideo" loop autoplay="true">
+                      <source src="Hideout_Intro_v2.mp4" type="video/mp4">
+                    </video>
+                    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+                    <script src="index.js"></script>
+              </div>
+        </div>
+      </div>
+
+      </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
+
+<!--
+<div class="nonMobile">
+<div class="container bottomContainer">
+<div class="col-md-1 mediaButton"></div>
+<div id="proud" class="col-md-1 mediaButton">Proudly Serving:</div>
+<div class="col-md-1 mediaButton"><img class="easyTiger" src="https://c1.staticflickr.com/5/4171/34457044831_60fc10daef_t.jpg" style="width:54px;"/></div>
+<div class="col-md-1 mediaButton"><img class="amys" src="https://mallimages.mallfinder.com/svc/storeimage.cfm?storeid=2137037859&newsize=400x400" style="width:54px;" /></div>
+<div class="col-md-1 mediaButton"><img class="katz" src="http://media.culturemap.com/crop/8b/7f/300x300/Katz-Coffee_101427.jpg" style="width:54px;"/></div>
+<div id="address" class="col-md-2 mediaAddress"><center>617 CONGRESS AVE AUSTIN, TX 78701 <br> Phone: (512) 443-3688</center></div>
+<div class="col-md-1 mediaButton"><img id="twitter" class="socialMedia" src="https://s3.amazonaws.com/store-product-images/icon-twitter-bird-circle-black-40x.png" /></div>
+<div class="col-md-1 mediaButton"><img id="facebook" class="socialMedia" src="https://s3.amazonaws.com/store-product-images/icon-facebook-circle-black-40x.png" /></div>
+<div class="col-md-1 mediaButton"><img id="instagram" class="socialMedia" style="background-color:black; border-radius:60%;" src="http://www.championsboston.com/wp-content/uploads/2013/03/icon-instagram.png" /></div>
+<div class="col-md-1 mediaButton"><img id="tripadvisor" class="socialMedia" style="background-color:black; border-radius:60%" src="http://ffh-station.com/wp-content/uploads/2016/07/tripadvisor-circle-white-40px.png" /></div>
+<div id="social" class="col-md-1 mediaButton">Social Media</div>
+</div>
+</div>
+-->

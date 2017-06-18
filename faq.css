@@ -1,0 +1,234 @@
+body {
+  background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/contemporary_china_2.png");
+  height: 100%;
+  width: 100%;
+
+}
+.menubar > div {
+  font-weight: 800;
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+
+}
+.navbar-brand >span {
+  font-weight: 800;
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+}
+.linkbar {
+  border: 0px!important;
+  background-color: #222;
+  margin-top: 50px!important;
+  width: 100%;
+
+}
+.localLinks {
+
+}
+.localLinks > li {
+  list-style: none;
+  display: inline;
+
+}
+.localLinks > li > a {
+  text-decoration: none;
+  color: #9d9d9d!important;
+  font-weight: 800;
+  font-size: 1.5em;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  padding: 15px;
+  margin-top: 3px;
+}
+.localLinks > li > a:hover {
+  text-decoration: none;
+  color: white!important;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.row {
+  border-top: 0px;
+  border-bottom: 0px;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-radius: 15px;
+  margin: 1%;
+}
+p {
+
+}
+
+@media screen and (max-width: 1199px) {
+  #picture1, #picture3 {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 827px ) {
+  .nav>li>a {
+    padding: 15px 10px 15px 10px!important;
+  }
+}
+@media screen and (max-width: 450px) {
+  img {
+    max-width: 280px;
+  }
+  .localLinks > li > a {
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+
+  }
+}
+
+/* IMPORTED CSS */
+
+body{
+	position: relative; /* required */
+
+}
+ul.nav-tabs {
+	width: 140px;
+	margin-top: 70px;
+	border-radius: 4px;
+    background: #fff;
+    z-index: 999;
+	border: 1px solid #ddd;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+}
+ul.nav-tabs li {
+	margin: 0;
+	border-top: 1px solid #ddd;
+  font-size: 10px;
+}
+ul.nav-tabs li:first-child {
+	border-top: none;
+}
+ul.nav-tabs li a {
+	margin: 0;
+	padding: 8px 16px;
+	border-radius: 0;
+}
+ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover {
+	color: #fff;
+	background: #0088cc;
+	border: 1px solid #0088cc;
+}
+ul.nav-tabs li:first-child a {
+	border-radius: 4px 4px 0 0;
+}
+ul.nav-tabs li:last-child a {
+	border-radius: 0 0 4px 4px;
+}
+ul.nav-tabs.affix {
+	top: 0px; /* set the top position of pinned element */
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px){
+    ul.nav-tabs{
+        width: 180px; /* set nav width on medium devices */
+    }
+    .bar {
+      margin: 0 auto;
+      width: 100%;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .nav1 {
+
+      font-size: 80%;
+}
+
+    .logobox {
+      max-width: 30%;
+      max-height: 30%;
+      object-fit: cover;
+    }
+}
+@media screen and (min-width: 1024px){
+    ul.nav-tabs{
+        width: 220px; /* set nav width on large devices */
+    }
+}
+
+@media screen and (min-width: 736px) and (max-width: 1024px) {
+  .bar {
+    margin: 0 auto;
+    width: 99%;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .nav1 {
+    font-size: 80%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+  .logobox {
+    max-width: 30%;
+    max-height: 30%;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 736px){
+
+  .bar {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+		padding: none;
+  }
+
+  .nav1 {
+    font-size: 56%;
+
+  }
+
+  .logobox {
+    max-width: 35%;
+    max-height: 35%;
+    object-fit: cover;
+  }
+}
+
+
+.nav1 {
+  display: inline-block;
+  text-align: center;
+
+
+}
+
+.navBtn {
+  height: 10px;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-weight: 100;
+  font-size: 210%;
+  text-decoration: none;
+}
+
+.logobox {
+ margin: 0 auto;
+ height: 30vh;
+ width: 30vh;
+ z-index: 1;
+}
+
+.logo {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}

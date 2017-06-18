@@ -1,0 +1,91 @@
+body {
+  background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/contemporary_china_2.png");
+  height: 100%;
+  width: 100%;
+
+}
+.menubar > div {
+  font-weight: 800;
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+
+}
+.navbar-brand >span {
+  font-weight: 800;
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+}
+.linkbar {
+  border: 0px!important;
+  background-color: #222;
+  margin-top: 50px!important;
+  width: 100%;
+
+}
+.localLinks {
+
+}
+.localLinks > li {
+  list-style: none;
+  display: inline;
+
+}
+.localLinks > li > a {
+  text-decoration: none;
+  color: #9d9d9d!important;
+  font-weight: 800;
+  font-size: 1.5em;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  padding: 15px;
+  margin-top: 3px;
+}
+.localLinks > li > a:hover {
+  text-decoration: none;
+  color: white!important;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  margin-top: 20px;
+  max-width: 600px;
+}
+
+.row {
+  border-top: 0px;
+  border-bottom: 0px;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-radius: 15px;
+  margin: 1%;
+}
+p {
+
+}
+
+@media screen and (max-width: 1199px) {
+  #picture1, #picture3 {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 827px ) {
+  .nav>li>a {
+    padding: 15px 10px 15px 10px!important;
+  }
+}
+@media screen and (max-width: 450px) {
+  img {
+    max-width: 280px;
+  }
+  .localLinks > li > a {
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+
+  }
+}

@@ -1,0 +1,95 @@
+body {
+    background-color: #d3a1b9;
+    margin: 0 auto;
+    font-family: 'Delius', cursive;
+    font-size: 16px;
+    color: black;
+    line-height: 1.5;
+    text-decoration: none;
+
+}
+
+
+.table th, td {
+    background-color: #fdeeff !important;
+    border-color: #fdeeff !important;
+}
+
+.panel-default {
+    background-color: #fdeeff !important;
+    border-color: #d3a1b9 !important;
+    border: 0px solid transparent;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fdeeff !important;
+
+}
+
+h2 {
+    font-family: 'Delius', cursive;
+    text-align: left;
+    font-size: 21px;
+    font-weight: bolder;
+    padding-top: 1%;
+    margin-left: 5%;
+
+}
+
+.navbar {
+  background-color: #d3a1b9 !important;
+  border: 0px solid transparent;
+  padding-top: 1.5%;
+  padding-bottom: 1%;
+}
+
+
+.panel-heading {
+  background-color: #9c446e !important;
+  padding: 10px 15px;
+  border-bottom: 0px solid transparent;
+  color: white !important;
+  text-align: center;
+  font-size: 17px;
+
+}
+
+
+.headingtext {
+  background-color: #772c50 !important;
+  color: #f7f5b8 !important;
+  text-align: center;
+  font-size: 14px;
+  padding: 1%;
+
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: black;
+  border: 0px solid transparent;
+
+
+  }
+
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: black !important;
+    background-color: #b273b2 !important;
+    border: 0px solid transparent;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

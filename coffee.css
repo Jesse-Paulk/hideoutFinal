@@ -1,105 +1,92 @@
+html {
+  height: 100%;
+  background-color: #000;
+}
 body {
   margin: 0 auto;
+  height: 100%;
   font-family: 'Amatic SC', cursive;
-}
+  background-color: #000;
 
-p {
-  font-size: 200%;
-  width: 30%;
-  height: 50%;
-  margin: 0 auto;
-}
-
-a {
-  text-decoration: none;
 
 }
-
-#container {
-  display: flex;
-  flex-wrap: wrap;
-  height: 100%;
-  margin: 0 auto;
-  width: 100%;
-
-}
-
-/*nav bar logo logobo styles*/
-.navbar {
-  width: 100%;
-  height: 10vh;
-  display: flex;
-  flex-direction: row;
-  background-color: #fdeeff;
-
-}
-
-.rbar {
-  font-weight: bolder;
-  width: 45%;
-  height: 100%;
-  float: right;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  justify-content: space-around;
-  padding-top: 25px;
-}
-
-.lbar {
-  font-weight: bolder;
-  width: 45%;
-  height: 100%;
-  box-sizing: border-box;
-  float: left;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  justify-content: space-around;
-  padding-top: 25px;
-}
-
-.nav {
+/*
+div {
   display: inline-block;
-  text-align: center;
+}*/
+.container {
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+  background-color: #000;
 }
+.menuBar {
+  display: flex;
+  justify-content: space-around;
 
-.navBtn {
-  height: 10px;
+}
+/* styling for the navbar font */
+li {
+  font-family: 'Amatic SC',cursive;
   color: black;
   border: none;
   cursor: pointer;
-  font-weight: 100;
-  font-size: 220%;
-}
-
-.logobox {
- background-image: url("images/hideoutlogo.png");
- background-repeat: no-repeat;
- background-size: 100%;
- margin: 0 auto;
- height: 164px;
- width: 164px;
- z-index: 1;
+  font-weight: 800;
+  font-size: 2em;
+  padding-top: 4%;
+  padding-bottom: 2%;
 
 }
+
+
+/* leftmenu and rightmenu refer to each side of the top bar menu */
+.leftmenu {
+  float: left!important;
+}
+/**** LOGO STYLING ****/
+.logo {
+  visibility: hidden;
+  width: 12%;
+  position: fixed;
+  border: none;
+  cursor: pointer;
+  z-index: 2000;
+}
+/*REMOVE LOGO ON SMALLER THAN 1250px */
+@media screen and (min-width: 1250px) {
+    .logo {
+        visibility: visible!important;
+    }
+}
+
 
 /* main image styles and text styles*/
-.mainImage {
- background-image: url("http://i.imgur.com/WfLA29P.jpg");
- height: 80vh;
- width: 100%;
- background-size: cover;
- position: relative;
+
+.row {
+  margin: 0!important;
+  padding: 0!important;
 
 }
 
-#videosList {
- height: 80vh;
- width: 100%;
- overflow: hidden;
- z-index: -100;
+/*CENTER CONTENT PICTURE */
+.main {
+  width: 100%;
+  background-image: url("https://static1.squarespace.com/static/542aae07e4b06868dcab2966/t/546eb682e4b0f8f6a10aadef/1416541826584/the+Hideout+Coffee+house?format=1000w");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #000000;
+  height: 80%;
+}
 
+/*VIDEO EDITING*/
+.video_wrapper {
+  opacity: 0.4;
+
+}
+.thevideo {
+  object-fit: contain;
+  display: block;
+  width: 100%;
 }
 
 /* Hide Play button + controls on iOS */
@@ -107,244 +94,103 @@ video::-webkit-media-controls {
     display:none !important;
 }
 
-.mainText {
-  width: 100%;
-  position: absolute;
-  top: 35%;
-  right: 5%;
-  color: white;
-  font-size: 150%;
-  width: 30%;
-  text-shadow: 2px 2px 5px black;
-  z-index:300000;
-
-}
-
-/*bottom boder style8*/
-.bottombar {
+.bottomContainer {
   margin: 0 auto;
-  width: 100%;
-  height: 10vh;
-  background-color: #fdeeff;
-  display: flex;
-  flex-direction: row;
-  box-sizing: border-box;
-  overflow: hidden;
-
 }
 
-.leftm {
-  height: 10vh;
-  width: 35%;
-  margin-left: 5%;
-  display: flex;
-  flex-direction: row;
-  justify-content:space-between;
+.mediaButton {
+  font-family: 'Amatic SC', cursive;
+  font-size: 190%;
+  font-weight: 500;
+}
+.mediaAddress {
+  font-family: 'Amatic SC', cursive;
+  font-size: 190%;
+  font-weight: 500;
+}
+#proud {
+  display: block;
+}
+/* proudly serving content
+.easyTiger {
+  width: 70%;
+  border-radius: 60%;
+}
+.amys {
+  width: 95%;
+  border-radius: 30%;
+}
+.katz {
+  width: 83%;
+  border-radius: 60%
+}
+*/
+/**** MOBILE EDITING ***/
 
+.mobileView {
+  display: none;
+  height: 45%;
 }
 
-.rightm {
-  margin: 0% 3% 0% 3%;
-  height: 10vh;
-  width: 33%;
-  display: flex;
-  flex-direction: row;
-  justify-content:space-between;
+#mobilesocial {
 
-}
-
-.ps{
-  width: 10vh;
-  height: 8vh;
+  color: white;
   font-size: 30px;
-
-}
-
-.ps1{
-  width: 8vh;
-  height: 8vh;
-  margin-top: 5px;
-  background-image: url("https://c1.staticflickr.com/5/4171/34457044831_60fc10daef_t.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  border-radius: 100%;
-
-}
-
-.ps2 {
-  width: 12vh;
-  height: 8vh;
-  margin-top: 9px;
-  background-image: url("https://mallimages.mallfinder.com/svc/storeimage.cfm?storeid=2137037859&newsize=400x400");
-  background-size: contain;
-  background-repeat: no-repeat;
-
-}
-
-.ps3 {
-  width: 8vh;
-  height: 8vh;
-  margin-top: 5px;
-  background-image: url("http://media.culturemap.com/crop/8b/7f/300x300/Katz-Coffee_101427.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  border-radius: 100%;
-
-}
-
-.add {
- text-align: center;
- box-sizing: content-box;
-
-}
-
-h4 {
+  font-weight: 400;
   text-align: center;
-  position: relative;
-  width: 25%;
-  height: 5vh;
+}
+#mobiletwitter, #mobilefacebook, #mobileinstagram, #mobiletripadvisor {
+  width: 70px;
+  padding: 5px;
+
+}
+#mobileaddress {
+  background-color: transparent;
+  color: white;
   font-size: 25px;
-  margin-top: .5%;
-  margin-left: 30px;
+  font-weight: 400;
+  background-color: black;
 }
 
-.media1 {
-  margin-top: 18px;
-  background-image: url("https://s3.amazonaws.com/store-product-images/icon-twitter-bird-circle-black-40x.png");
-  width: 5vh;
-  height: 6vh;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.media2 {
-  margin-top: 18px;
-  background-image: url("https://s3.amazonaws.com/store-product-images/icon-facebook-circle-black-40x.png");
-  width: 5vh;
-  height: 6vh;
-  background-size: contain;
-  background-repeat: no-repeat;
-
-}
-
-.media3 {
-  margin-top: 18px;
-  background-image: url("http://www.championsboston.com/wp-content/uploads/2013/03/icon-instagram.png");
-  width: 5vh;
-  height: 6vh;
-  background-size: contain;
-  background-repeat: no-repeat;
-  filter: invert(100%);
-}
-
-.media4 {
-  margin-top: 18px;
-  background-image: url("http://ffh-station.com/wp-content/uploads/2016/07/tripadvisor-circle-white-40px.png");
-  width: 5vh;
-  height: 6vh;
-  background-size: contain;
-  background-repeat: no-repeat;
-  filter: invert(100%);
-}
-
-.media5 {
-  width: 10vh;
-  height: 10vh;
-  font-size: 30px;
-  text-align: center;
-  margin-top: -2px;
-}
-
-
-/*Tablet optimization*/
-@media (min-width: 768px) and (max-width: 991px) {
-
-  .navBtn {
-    font-size: 150%;
+@media screen and (max-width: 1365px) {
+  .main {
+    height: 60%;
   }
-
-
-.logobox {
-  background-image: url("images/hideoutlogo.png");
-  height: 150px;
-  width: 150px;
-
 }
-
-.mainText {
-  width: 100%;
-  position: absolute;
-  top: 32%;
-  left: 10%;
-  color: white;
-  font-size: 140%;
-  width: 40%;
-  text-shadow: 2px 2px 5px black;
-  z-index:300000;
-
-}
-
-
-.ps1{
-  width: 6vh;
-  height: 6vh;
-  margin-top: 6%;
-
-}
-
-.ps2 {
-  width: 10vh;
-  height: 6vh;
-  margin-top: 7%;
-
-
-}
-
-.ps3 {
-  width: 6vh;
-  height: 6vh;
-  margin-top: 6%;
-
-
-}
-
-
-}
-
-/*mobile optimization*/
-@media (max-width: 767px) {
-
-  .navBtn {
-    height: 10px;
-    color: black;
-    border: none;
-    cursor: pointer;
-    font-weight: 100;
-    font-size: 120%;
+@media screen and (max-width: 767px) {
+  .main {
+    height: 40%;
   }
+}
+@media screen and (max-width: 570px) {
 
-
-  .logobox {
-    background-image: url("images/hideoutlogo.png");
-    background-size: 100%;
-    margin: 0 auto;
-    height: 16vh;
-    width: 18vh;
-
+  #mobiletwitter, #mobilefacebook, #mobileinstagram, #mobiletripadvisor {
+    width: 30px;
+    flex: 0 0 50%;
   }
-
-
-.mainText {
-  width: 100%;
-  position: absolute;
-  top: 32%;
-  left: 10%;
-  color: white;
-  font-size: 130%;
-  width: 45%;
-  text-shadow: 2px 2px 5px black;
-  z-index:300000;
-
+  #mobileaddress {
+    font-size: 15px;
+  }
 }
 
-}
+
+    .mobileView {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+
+    .mobileButton {
+      display: inline-block;
+      background-color: transparent;
+    }
+      .mobileView {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+
+      .bottomRow {
+        background-image: url("http://images.all-free-download.com/images/graphiclarge/wood_grain_03_hd_pictures_168527.jpg");
+      }

@@ -1,0 +1,129 @@
+body {
+  margin: 0 auto;
+  font-family: 'Amatic SC', cursive;
+}
+
+p {
+  font-size: 200%;
+  width: 30%;
+  height: 50%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+/*nav bar logo logobo styles*/
+
+
+.nav {
+  display: inline-block;
+  text-align: center;
+}
+
+.navBtn {
+  height: 10px;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-weight: 100;
+  font-size: 230%;
+}
+
+.logobox {
+ margin: 0 auto;
+ height: 22vh;
+ width: 22vh;
+
+}
+
+.logo {
+
+}
+
+/* main image styles and text styles*/
+.menu {
+ height: 80vh;
+ width: 100%;
+
+}
+
+.mainText {
+  padding-top: 6%;
+  margin-left: 6%;
+  font-size: 15px;
+  height: 60vh;
+  width: 27%;
+  box-sizing: border-box;
+  color: white;
+}
+
+.mtext {
+  font-size: 200%;
+  width: 90%;
+  height: 50%;
+  margin: 0 auto;
+}
+
+.add {
+ text-align: center;
+box-sizing: content-box;
+
+}
+
+h4 {
+  text-align: center;
+  position: relative;
+  width: 25%;
+  height: 5vh;
+  font-size: 25px;
+  margin-top: 17px;
+  margin-left: 30px;
+}
+
+.media1 {
+  margin-top: 18px;
+  background-image: url("https://s3.amazonaws.com/store-product-images/icon-twitter-bird-circle-black-40x.png");
+  width: 5vh;
+  height: 6vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.media2 {
+  margin-top: 18px;
+  background-image: url("https://s3.amazonaws.com/store-product-images/icon-facebook-circle-black-40x.png");
+  width: 5vh;
+  height: 6vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+.media3 {
+  margin-top: 18px;
+  background-image: url("http://www.championsboston.com/wp-content/uploads/2013/03/icon-instagram.png");
+  width: 5vh;
+  height: 6vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  filter: invert(100%);
+}
+
+.media4 {
+  margin-top: 18px;
+  background-image: url("http://ffh-station.com/wp-content/uploads/2016/07/tripadvisor-circle-white-40px.png");
+  width: 5vh;
+  height: 6vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  filter: invert(100%);
+}
+
+.media5 {
+  width: 10vh;
+  height: 10vh;
+  font-size: 200%;
+  text-align: center;
+  margin-top: -2px;
+}
